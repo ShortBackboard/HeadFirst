@@ -8,6 +8,13 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        duck.h
+        redDuck.h
+
+        displayBehavior.h
+        whiteDisplay.h
+        redBehavior.h
+
         
     PUBLIC
         
