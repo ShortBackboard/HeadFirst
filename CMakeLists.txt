@@ -8,6 +8,12 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        beverage.h
+        condimentDecorator.h
+
+        tea.h
+        milk.h
+
         
     PUBLIC
         
