@@ -8,6 +8,9 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        subject.h weatherData.h
+        observer.h display.h
+        temDisplay.h    humDisplay.h
         
     PUBLIC
         
