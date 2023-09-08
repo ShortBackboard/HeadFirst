@@ -8,6 +8,11 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        pizza.h   NYStyleCheesePizza.h
+        ChicagoStyleVeggiePizza.h
+
+        pizzaStore.h  NYPizzaStore.h    ChicagoPizzaStore.h
+
         
     PUBLIC
         
