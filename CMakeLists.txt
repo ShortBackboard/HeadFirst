@@ -8,6 +8,8 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        hungrySingleton.h
+        lazySingleton.h
         
     PUBLIC
         
