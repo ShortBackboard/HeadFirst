@@ -8,6 +8,11 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        sugar.h   halfSugar.h
+        crust.h   thickCrust.h
+        pizza.h
+        pizzaStore.h    chinaPizzaStore.h
+
         
     PUBLIC
         
