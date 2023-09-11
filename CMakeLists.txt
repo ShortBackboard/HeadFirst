@@ -8,6 +8,13 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        command.h
+        lightOnCommand.h    lightOffCommand.h
+        noCommand.h
+
+        remoteControl.h
+
+        light.h
         
     PUBLIC
         
