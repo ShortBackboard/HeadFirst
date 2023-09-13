@@ -8,6 +8,11 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        light.h
+        screen.h
+        projector.h
+        player.h
+
         
     PUBLIC
         
