@@ -8,6 +8,11 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        myIterator.h
+        computerIterator.h      mathIterator.h
+
+        major.h
+        computerMajor.h     mathMajor.h
         
     PUBLIC
         
