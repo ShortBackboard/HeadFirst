@@ -8,6 +8,9 @@ target_sources( headFirst
     PRIVATE
         main.cpp
 
+        component.h
+        file.h
+        directory.h
         
     PUBLIC
         
