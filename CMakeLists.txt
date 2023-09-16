@@ -6,6 +6,13 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
+
+        state.h
+        requestLine.h
+        requestHeader.h
+        requestBlankLine.h
+        requestBody.h
+        httpAnalyze.h
         main.cpp
 
         
