@@ -6,7 +6,11 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    shop.h
+    buyer.h
+    proxy.h
+    main.cpp
+
 
         
     PUBLIC
