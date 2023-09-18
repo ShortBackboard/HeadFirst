@@ -6,7 +6,9 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    car.h
+    builder.h
+    main.cpp
 
         
     PUBLIC
