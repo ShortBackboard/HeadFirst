@@ -6,6 +6,8 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
+        color.h
+        bag.h
         main.cpp
 
         
