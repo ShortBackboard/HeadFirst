@@ -6,6 +6,7 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
+        gradeHandler.h
         main.cpp
 
         
