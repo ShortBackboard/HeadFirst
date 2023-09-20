@@ -6,7 +6,9 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    ball.h
+    ballManager.h
+    main.cpp
 
         
     PUBLIC
