@@ -6,7 +6,9 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    person.h
+    mediator.h
+    main.cpp
 
         
     PUBLIC
