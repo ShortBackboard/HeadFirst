@@ -6,7 +6,9 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    duck.h
+    expression.h
+    main.cpp
 
         
     PUBLIC
