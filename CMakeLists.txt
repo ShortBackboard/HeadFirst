@@ -6,7 +6,9 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    place.h
+    visitor.h
+    main.cpp
 
         
     PUBLIC

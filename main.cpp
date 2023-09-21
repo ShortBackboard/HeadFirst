@@ -1,8 +1,18 @@
-#include <iostream>
+/*
+ * 访问者模式
+ *
+ * date:2023-9-21
+*/
+
+#include "visitor.h"
 
 int main()
 {
-    std::cout << "hello, world" << std::endl;
-    return 0;
-}
+    Place* school = new School("CQNU");
+    Visitor* mayor = new Mayor();
+    Visitor* parents = new Parents();
 
+    mayor->visitSchool(school);
+    puts("");
+    parents->visitSchool(school);
+}
