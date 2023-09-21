@@ -6,7 +6,8 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    resume.h
+    main.cpp
 
         
     PUBLIC
