@@ -6,7 +6,10 @@ add_executable( headFirst )
 
 target_sources( headFirst 
     PRIVATE
-        main.cpp
+    editorMemento.h
+    editor.h
+    history.h
+    main.cpp
 
         
     PUBLIC
